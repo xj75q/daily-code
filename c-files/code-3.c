@@ -2,8 +2,10 @@
 #include <string.h>
 
 void main(){
-  char name[50];
-  printf("Enter name:");
-  fgets(name,50,stdin);
-  puts(name);
+    char name[50];
+    printf("enter your name:");
+    fgets(name,50,stdin);
+    printf("your name is: ");
+    puts(name);
 }
+    
